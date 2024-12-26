@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Header from './Components/Nav/Header/Header'
-import { Route, Routes } from 'react-router-dom'
+import { Navigate, Route, Routes } from 'react-router-dom'
 import Home from './Components/pages/Home'
 import About from './Components/pages/About'
 import Contact from './Components/pages/Contact'
