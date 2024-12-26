@@ -27,6 +27,7 @@ const App = () => {
 
           <Header />
           <Routes>
+            <Route path="/" element={<Navigate to="/home" />} />
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
             <Route path='/contact' element={<Contact />} />
@@ -35,7 +36,7 @@ const App = () => {
             <Route path='/terms' element={<TermsAndConditions />} />
             <Route path='/refund' element={<RefundPolicy />} />
           </Routes>
-          <WhatsAppButton/>
+          <WhatsAppButton />
           <Footer />
         </div>
       )}
